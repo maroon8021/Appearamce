@@ -20,9 +20,9 @@ export default class ApmHeader extends Vue {
 <style scoped lang="scss">
 .apm-header{
   display: flex;
-
+  padding: 1rem, auto;
   & .title{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #333;
     padding-left: 5%;
   }
