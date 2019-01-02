@@ -1,5 +1,3 @@
 import ApmHeader from './layouts/Header.vue';
 
-module.exports = {
-  ApmHeader
-}
+export default ApmHeader
