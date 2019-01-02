@@ -11,9 +11,9 @@ export default {
   methods: {
     onClick() {
       this.$emit('click')
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style>

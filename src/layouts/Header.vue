@@ -9,8 +9,8 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class ApmHeader extends Vue {
-  @Prop() title!: string;
-  @Prop() color!: string;
+  @Prop() private title!: string;
+  @Prop() private color!: string;
 
   private colorClassName: string = this.color || 'green';
 }
