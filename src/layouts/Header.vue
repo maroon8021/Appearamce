@@ -25,6 +25,8 @@ export default class ApmHeader extends Vue {
     font-size: 1.4rem;
     color: #333;
     padding-left: 5%;
+    flex-basis: 100%;
+    text-align: left;
   }
 
   &.green{
