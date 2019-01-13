@@ -35,3 +35,7 @@ storiesOf('ApmHeader', module)
     components: { ApmHeader },
     template: '<apm-header title="With Blue" color="blue"/>'
   }))
+  .add('with color white', () => ({
+    components: { ApmHeader },
+    template: '<apm-header title="With White" color="white"/>'
+  }))

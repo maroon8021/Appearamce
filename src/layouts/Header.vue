@@ -42,5 +42,13 @@ export default class ApmHeader extends Vue {
       color: #fff;
     }
   }
+
+  &.white{
+    background-color: #fff;
+    & .title{
+      color: #333;
+    }
+  }
+
 }
 </style>

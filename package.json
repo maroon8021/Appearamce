@@ -3,6 +3,7 @@
   "version": "0.1.4",
   "private": true,
   "main" : "dist/appearamce.common.js",
+  "types": "src/types/main.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
