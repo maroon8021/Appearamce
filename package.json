@@ -1,6 +1,6 @@
 {
   "name": "appearamce",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "main" : "dist/appearamce.common.js",
   "types": "src/types/main.d.ts",
